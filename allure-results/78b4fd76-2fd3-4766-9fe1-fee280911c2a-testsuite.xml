@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627666011621' stop='1627666019128'>
+    <name>Verify menu options</name>
+    <title>Verify menu options</title>
+    <test-cases>
+        <test-case start='1627666011621' status='broken' stop='1627666019126'>
+            <name>Verify Menu options</name>
+            <title>Verify Menu options</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps>
+                <step start='1627666011654' status='passed' stop='1627666013605'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b1e94af4-b232-4ed9-a1fc-15ecf8eaef0f-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666013607' status='passed' stop='1627666013620'>
+                    <name>POST /session/:sessionId/timeouts</name>
+                    <title>POST /session/:sessionId/timeouts</title>
+                    <attachments>
+                        <attachment title='Request' source='5a0bb8d9-3155-44c1-b8a3-061cd8ba0e71-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666013620' status='passed' stop='1627666013859'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='5137d021-a5eb-4a83-b11c-95cfaddbab85-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666018872' status='passed' stop='1627666019123'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='19617396-0bf4-4207-ab97-da6d3dc70976-attachment.png' type='image/png' size='124420'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>SafteyPage.navigatenToSafteyCampaignPage is not a function</message>
+                <stack-trace>TypeError: SafteyPage.navigatenToSafteyCampaignPage is not a function
+                    at Context.&lt;anonymous> (C:\Users\panka\Desktop\Volvo\VolvoAssignment\test\TestExploreOurModels.js:14:20)
+                    at Context.executeSync (C:\Users\panka\Desktop\Volvo\VolvoAssignment\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\panka\Desktop\Volvo\VolvoAssignment\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

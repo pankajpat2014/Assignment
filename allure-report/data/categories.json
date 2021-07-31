@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_molly_linda_4x5_200915_clean.mp4' to equal 'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_amy_4x5_clean.mp4'      \n                      actual expected\n                      \n                      'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_molly_linda_4x5_200915_cleanamm_id_amy_4x5_clean.mp4'\n                      ",
+      "children" : [ {
+        "name" : "Verify all the video links present on the page",
+        "uid" : "6a6e5034fe809972",
+        "parentUid" : "bc16618c88c01c68514a27a3a25b9963",
+        "status" : "failed",
+        "time" : {
+          "start" : 1627673725527,
+          "stop" : 1627673727438,
+          "duration" : 1911
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-92.0.4515.107" ]
+      } ],
+      "uid" : "bc16618c88c01c68514a27a3a25b9963"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

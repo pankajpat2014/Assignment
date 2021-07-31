@@ -1,0 +1,229 @@
+{
+  "uid" : "606f11fa16c0948a",
+  "name" : "Verify all the video links present on the page",
+  "fullName" : "Verify Saftey Campaign Home page.Verify all the video links present on the page",
+  "historyId" : "941c4b0e237c30889dd2793067c2f793",
+  "time" : {
+    "start" : 1627670272549,
+    "stop" : 1627670273279,
+    "duration" : 730
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_molly_linda_4x5_200915_clean.mp4' to equal 'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_amy_4x5_clean.mp4'      \n                      actual expected\n                      \n                      'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_molly_linda_4x5_200915_cleanamm_id_amy_4x5_clean.mp4'\n                      ",
+  "statusTrace" : "AssertionError: expected 'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_molly_linda_4x5_200915_clean.mp4' to equal 'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_amy_4x5_clean.mp4'\n                    at C:\\Users\\panka\\Desktop\\Volvo\\VolvoAssignment\\test\\Test1VolvoSafteyCampaignHome.js:69:58\n                    at Array.forEach (<anonymous>)\n                    at Context.<anonymous> (C:\\Users\\panka\\Desktop\\Volvo\\VolvoAssignment\\test\\Test1VolvoSafteyCampaignHome.js:68:32)\n                    at Context.executeSync (C:\\Users\\panka\\Desktop\\Volvo\\VolvoAssignment\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\panka\\Desktop\\Volvo\\VolvoAssignment\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_molly_linda_4x5_200915_clean.mp4' to equal 'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_amy_4x5_clean.mp4'      \n                      actual expected\n                      \n                      'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_molly_linda_4x5_200915_cleanamm_id_amy_4x5_clean.mp4'\n                      ",
+    "statusTrace" : "AssertionError: expected 'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_molly_linda_4x5_200915_clean.mp4' to equal 'https://www.volvocars.com/images/v/intl/v/-/media/project/contentplatform/data/media/campaigns/amm_id_amy_4x5_clean.mp4'\n                    at C:\\Users\\panka\\Desktop\\Volvo\\VolvoAssignment\\test\\Test1VolvoSafteyCampaignHome.js:69:58\n                    at Array.forEach (<anonymous>)\n                    at Context.<anonymous> (C:\\Users\\panka\\Desktop\\Volvo\\VolvoAssignment\\test\\Test1VolvoSafteyCampaignHome.js:68:32)\n                    at Context.executeSync (C:\\Users\\panka\\Desktop\\Volvo\\VolvoAssignment\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\panka\\Desktop\\Volvo\\VolvoAssignment\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1627670272550,
+        "stop" : 1627670272563,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f77992d6ae933c29",
+        "name" : "Response",
+        "source" : "f77992d6ae933c29.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1627670272563,
+        "stop" : 1627670272595,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ea5a8caa335e4548",
+        "name" : "Request",
+        "source" : "ea5a8caa335e4548.json",
+        "type" : "application/json",
+        "size" : 60
+      }, {
+        "uid" : "5f64ec5a57abfacc",
+        "name" : "Response",
+        "source" : "5f64ec5a57abfacc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1627670272600,
+        "stop" : 1627670272621,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cad674b77f2f658",
+        "name" : "Request",
+        "source" : "cad674b77f2f658.json",
+        "type" : "application/json",
+        "size" : 302
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1627670272622,
+        "stop" : 1627670273002,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db8e0ad6e3efffdd",
+        "name" : "Request",
+        "source" : "db8e0ad6e3efffdd.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "df685e4a4b2699e3",
+        "name" : "Response",
+        "source" : "df685e4a4b2699e3.json",
+        "type" : "application/json",
+        "size" : 184
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/d2c512b6-deb3-4b89-9295-4951a3021bca/attribute/src",
+      "time" : {
+        "start" : 1627670273009,
+        "stop" : 1627670273024,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2be7edfbdfb35c38",
+        "name" : "Response",
+        "source" : "2be7edfbdfb35c38.json",
+        "type" : "application/json",
+        "size" : 121
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/2c6789f1-b0c8-4353-a067-9474c00bb272/attribute/src",
+      "time" : {
+        "start" : 1627670273025,
+        "stop" : 1627670273039,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bfc6c9237140fe2a",
+        "name" : "Response",
+        "source" : "bfc6c9237140fe2a.json",
+        "type" : "application/json",
+        "size" : 124
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1627670273042,
+        "stop" : 1627670273271,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c52f98ce7ced0236",
+        "name" : "Screenshot",
+        "source" : "c52f98ce7ced0236.png",
+        "type" : "image/png",
+        "size" : 34152
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Verify Saftey Campaign Home page"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify Saftey Campaign Home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify all the video links present on the page"
+  }, {
+    "name" : "package",
+    "value" : "Verify Saftey Campaign Home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.107"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "606f11fa16c0948a.json",
+  "parameterValues" : [ "chrome-92.0.4515.107" ]
+}

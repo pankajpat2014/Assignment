@@ -1,0 +1,128 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627666207685' stop='1627666220898'>
+    <name>Verify menu options</name>
+    <title>Verify menu options</title>
+    <test-cases>
+        <test-case start='1627666207686' status='broken' stop='1627666220895'>
+            <name>Verify Menu options</name>
+            <title>Verify Menu options</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps>
+                <step start='1627666207706' status='passed' stop='1627666209549'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='660affca-6a35-478f-9691-9574436bcbd4-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666209551' status='passed' stop='1627666209561'>
+                    <name>POST /session/:sessionId/timeouts</name>
+                    <title>POST /session/:sessionId/timeouts</title>
+                    <attachments>
+                        <attachment title='Request' source='8fb5835e-3cef-4b86-9a4b-da50f16bd40c-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666209562' status='passed' stop='1627666209740'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='acec8f98-3be0-4d92-a660-07c18e6b5fa1-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666214745' status='passed' stop='1627666214758'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='0ad93324-34c7-40ae-9313-f6045a65c0f8-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666214763' status='passed' stop='1627666214787'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1d92cca6-3fd8-4100-aad5-65fee05df91e-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='a262f5d7-1289-4700-b7fe-4de6a222741e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666214799' status='passed' stop='1627666214822'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='0ba8bc63-ef18-4907-b9f9-736a60bedcc7-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='240ded9c-b96a-442b-a277-bdb5d3ae6889-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666214828' status='passed' stop='1627666214844'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dcf9c1c9-fbd3-42de-a0c3-3d600ee6d7aa-attachment.json' type='application/json' size='72'/>
+                        <attachment title='Response' source='cca1fa24-d06d-42e0-8403-cd49418c26c4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666214852' status='passed' stop='1627666214884'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='0dd68594-2e3c-4fd0-8d7c-af42ff56f95d-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='93b39a31-b4d0-4806-8523-d595ac04fddd-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666214886' status='passed' stop='1627666215099'>
+                    <name>POST /session/:sessionId/element/fda1955f-9afd-470f-9abf-5e08b44bd23e/click</name>
+                    <title>POST /session/:sessionId/element/fda1955f-9afd-470f-9abf-5e08b44bd23e/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1627666220102' status='passed' stop='1627666220136'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='cdd9988f-95d8-4489-9f5d-e6f6c75a1144-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='abfaa560-bfc5-4806-a58d-8f0aff010a9e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666220139' status='passed' stop='1627666220160'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='7f4bf253-cd42-4bc5-bfd0-1c2d42641978-attachment.json' type='application/json' size='302'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1627666220163' status='passed' stop='1627666220891'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='36ba8444-ad98-4291-85d8-98b39e3dd01e-attachment.png' type='image/png' size='181782'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>PageExploreOurModels.scrollToExploreOurModels is not a function</message>
+                <stack-trace>TypeError: PageExploreOurModels.scrollToExploreOurModels is not a function
+                    at Context.&lt;anonymous> (C:\Users\panka\Desktop\Volvo\VolvoAssignment\test\TestExploreOurModels.js:21:28)
+                    at Context.executeSync (C:\Users\panka\Desktop\Volvo\VolvoAssignment\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\panka\Desktop\Volvo\VolvoAssignment\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,138 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Verify menu options",
+    "children" : [ {
+      "name" : "Verify Menu options",
+      "uid" : "ccfe28611a6524",
+      "parentUid" : "9e0feba27f034b8a873d5a9af583ae17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627673706309,
+        "stop" : 1627673723937,
+        "duration" : 17628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    }, {
+      "name" : "Verify sub -menu from Buy menu option",
+      "uid" : "2e52d44f1b03a9a6",
+      "parentUid" : "9e0feba27f034b8a873d5a9af583ae17",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627673723938,
+        "stop" : 1627673725204,
+        "duration" : 1266
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    } ],
+    "uid" : "9e0feba27f034b8a873d5a9af583ae17"
+  }, {
+    "name" : "Verify Our Cars option",
+    "children" : [ {
+      "name" : "Verify Electric car category and sub categories under it",
+      "uid" : "9a91ba35c894c8e9",
+      "parentUid" : "9ccb442a5d4dd77d5499a72f1be2a937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627673706323,
+        "stop" : 1627673727740,
+        "duration" : 21417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    }, {
+      "name" : "Verify Hybrid cars category and sub categories under it",
+      "uid" : "70230c099d354f6d",
+      "parentUid" : "9ccb442a5d4dd77d5499a72f1be2a937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627673727741,
+        "stop" : 1627673729690,
+        "duration" : 1949
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    } ],
+    "uid" : "9ccb442a5d4dd77d5499a72f1be2a937"
+  }, {
+    "name" : "Explore our models- option",
+    "children" : [ {
+      "name" : "Verify Explore our models- option",
+      "uid" : "172a304988bb21b8",
+      "parentUid" : "05f59c73501ca7c14d5dc9c51df0d52e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627673706619,
+        "stop" : 1627673744875,
+        "duration" : 38256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    } ],
+    "uid" : "05f59c73501ca7c14d5dc9c51df0d52e"
+  }, {
+    "name" : "Verify Saftey Campaign Home page",
+    "children" : [ {
+      "name" : "Verify page headings",
+      "uid" : "ec8968ee4b75595a",
+      "parentUid" : "0109ac30a398ec87f339414b25e8fa20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627673706643,
+        "stop" : 1627673722120,
+        "duration" : 15477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    }, {
+      "name" : "Verify feature section-Sepeed up",
+      "uid" : "4d5f03579dc4cae0",
+      "parentUid" : "0109ac30a398ec87f339414b25e8fa20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627673722121,
+        "stop" : 1627673723517,
+        "duration" : 1396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    }, {
+      "name" : "Verify feature section-Highway pilot",
+      "uid" : "161985d6b929c6da",
+      "parentUid" : "0109ac30a398ec87f339414b25e8fa20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627673723517,
+        "stop" : 1627673725526,
+        "duration" : 2009
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    }, {
+      "name" : "Verify all the video links present on the page",
+      "uid" : "6a6e5034fe809972",
+      "parentUid" : "0109ac30a398ec87f339414b25e8fa20",
+      "status" : "failed",
+      "time" : {
+        "start" : 1627673725527,
+        "stop" : 1627673727438,
+        "duration" : 1911
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-92.0.4515.107" ]
+    } ],
+    "uid" : "0109ac30a398ec87f339414b25e8fa20"
+  } ]
+}
