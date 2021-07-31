@@ -61,28 +61,28 @@ It has below 4 major folders
 	- PageOurCars : This page contains the page locators and page actions for the "Our Cars" section
 	- PageExploreOurModels : This page contains the page locators and page actions for the "Explore Our Models" section.
 2. testData: This folder contains all the required test data. It contains below .js files.
-	-DataPageMessages : This file contains all the headings and labels which are present on the main landing page of the Saftey campagin.
-	-DataExploreOurModels: This file contains data related to "Explore Our Models" section.
-	-DataMenuOptions : This file contains the required test data which is appears after clicking on the side menu (Hamburger icon).
-	-DataOurCars : This file contains data related to "Our Cars" section.
-	-DataPageTitles : This file contains all the page titles of our application
+	- DataPageMessages : This file contains all the headings and labels which are present on the main landing page of the Saftey campagin.
+	- DataExploreOurModels: This file contains data related to "Explore Our Models" section.
+	- DataMenuOptions : This file contains the required test data which is appears after clicking on the side menu (Hamburger icon).
+	- DataOurCars : This file contains data related to "Our Cars" section.
+	- DataPageTitles : This file contains all the page titles of our application
 3. util: This folder contains all the functions which are used in performing generic actions such as button click, entering text etc.
-	-ElementUtil: This js file contains common functions which are getting operated on web page elements such as elelmentClick, scrollIntoViewThenClick etc.
-	-VolvoCommon : This js contains commonly used methods such as navigateToHomePage
+	- ElementUtil: This js file contains common functions which are getting operated on web page elements such as elelmentClick, scrollIntoViewThenClick etc.
+	- VolvoCommon : This js contains commonly used methods such as navigateToHomePage
 4. test: This is our actual test folder. This contains the actual tests which are created by using above folders. I have covered below tests in it
-	-Test1VolvoSafteyCampaignHome : This test file tests Safety campaign Home page
-	-Test2OurCars : This test file tests "Our Cars section
-	-Test3MenuOptions : This file tests menu options
-	-Test4ExploreOurModels : This file tests "Explore our models" sections
+	- Test1VolvoSafteyCampaignHome : This test file tests Safety campaign Home page
+	- Test2OurCars : This test file tests "Our Cars section
+	- Test3MenuOptions : This file tests menu options
+	- Test4ExploreOurModels : This file tests "Explore our models" sections
 
 I have also created one common file as below
--config.js : This file will act as a properties file and contains generic data which can be frequently used in our tests
+- config.js : This file will act as a properties file and contains generic data which can be frequently used in our tests
 
 Below are default webdriverIO files 
--wdio.conf : This contains all the project configuration details.
--package.json : This json file contains all the required dependencies.
+- wdio.conf : This contains all the project configuration details.
+- package.json : This json file contains all the required dependencies.
 
--Allure report : This folder contains all the test run results. This also captures the screenshots after the failure. I have added below code in wdio.config for capturing screenshots in the allure report.
+- Allure report : This folder contains all the test run results. This also captures the screenshots after the failure. I have added below code in wdio.config for capturing screenshots in the allure report.
 afterTest: function (
         test,
         context,
@@ -94,16 +94,16 @@ afterTest: function (
       },
 	
 ## Running the tests (Explain how to run the automated tests for this system)
-Run the tests: npm run test
-				with npm run tests, tests are started executing parallely on Google chrome browser
-generate reports: allure generate --clean and allure open
+- Run the tests: npm run test
+		with npm run tests, tests are started executing parallely on Google chrome browser
+- generate reports: allure generate --clean and allure open
 
 ### Break down into tests (Explain what these tests test and why)
 I have created below 4 test scenarios : 
--Test1VolvoSafteyCampaignHome : This test file tests Safety campaign Home page
--Test2OurCars : This test file tests "Our Cars" section
--Test3MenuOptions : This file tests menu options
--Test4ExploreOurModels : This file tests "Explore our models" sections
+- Test1VolvoSafteyCampaignHome : This test file tests Safety campaign Home page
+- Test2OurCars : This test file tests "Our Cars" section
+- Test3MenuOptions : This file tests menu options
+- Test4ExploreOurModels : This file tests "Explore our models" sections
 
 ## Deployment
 We can create docker image and use it for deployment
