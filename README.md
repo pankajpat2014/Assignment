@@ -56,10 +56,10 @@ This section covers a step-by-step series of steps that tell you how to get a en
 In this section, I will explain how I created the Page object model framework and its folder structure
 It has below 4 major folders
 1. Pages: This is basically backbone of page object model. It contains page locators and page actions. I have created below .js files under it.
-	-PageVovloSafteyCampaign : This page contains the page locators and page actions for the main landing page of the Safety campaign.
-	-PageMenuOptions : This page contains the page locators and page actions for the side menu (Hamburger icon).
-	-PageOurCars : This page contains the page locators and page actions for the "Our Cars" section
-	-PageExploreOurModels : This page contains the page locators and page actions for the "Explore Our Models" section.
+	- PageVovloSafteyCampaign : This page contains the page locators and page actions for the main landing page of the Safety campaign.
+	- PageMenuOptions : This page contains the page locators and page actions for the side menu (Hamburger icon).
+	- PageOurCars : This page contains the page locators and page actions for the "Our Cars" section
+	- PageExploreOurModels : This page contains the page locators and page actions for the "Explore Our Models" section.
 2. testData: This folder contains all the required test data. It contains below .js files.
 	-DataPageMessages : This file contains all the headings and labels which are present on the main landing page of the Saftey campagin.
 	-DataExploreOurModels: This file contains data related to "Explore Our Models" section.
